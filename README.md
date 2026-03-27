@@ -26,7 +26,6 @@ STEP 14: In the definition of the finish procedure declare the global variables.
 STEP 17: Stop the program.
 ```
 # PROGRAM:
-
 ``` 
 #Create a simulator object set ns [new Simulator] #Open the nam trace file set nf [open out.nam w]
 $ns namtrace-all $nf #Define a 'finish' procedure proc finish {}
